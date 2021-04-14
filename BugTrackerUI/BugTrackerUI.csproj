@@ -12,11 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Components\BugList.cs" />
+    <None Include="Shared\BugList.razor" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Components\BugList.razor" />
+    <Folder Include="Components\" />
   </ItemGroup>
 
 </Project>
