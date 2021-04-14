@@ -5,7 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Components\" />
+    <Compile Remove="Components\**" />
+    <Content Remove="Components\**" />
+    <EmbeddedResource Remove="Components\**" />
+    <None Remove="Components\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Components\BugList.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Components\BugList.razor" />
   </ItemGroup>
 
 </Project>
