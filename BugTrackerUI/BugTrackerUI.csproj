@@ -12,11 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Shared\BugList.razor" />
+    <Content Include="Components\BugList.razor" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Components\" />
+    <None Include="Components\BugList.razor" />
   </ItemGroup>
 
 </Project>
